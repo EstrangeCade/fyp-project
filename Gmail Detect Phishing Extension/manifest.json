@@ -1,0 +1,15 @@
+{
+  "name": "Gmail Detect Phishing Extension",
+  "version": "1.0",
+  "description": "Scans highlighted text to see if an email is spam/phishing attempt.",
+  "permissions": [
+    "tabs"
+  ],
+  "browser_action": {
+    "default_title": "Gmail Detect Phishing Extension",
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "manifest_version": 2,
+  "content_security_policy": "script-src 'self' https://ajax.googleapis.com; object-src 'self'"
+}

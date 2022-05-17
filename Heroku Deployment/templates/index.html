@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Fraud/Phishing Gmail Email Detection</title>
+</head>
+
+<body>
+<div class="container">
+    <h2 class='container-heading'>Fraud/Phishing Gmail Email Detector - Home</h2>
+    <div class='description'>
+        <p>A Machine Learning Chrome Extension to Detect Fraud/Phishing Emails. Built with Flask, Deployed using
+            Heroku.</p>
+    </div>
+</div>
+<div class="ml-container">
+    <form action="{{ url_for('predict') }}" method="POST">
+        <textarea class='message-box' name="message" rows="15" cols="75"
+                  placeholder="Please Paste The Body Of Your Email Here..."></textarea><br/>
+        <input type="submit" class="my-cta-button" value="Predict">
+    </form>
+</div>
+<div class='footer'>
+    <p class='footer-description'>Created By Cade Brodie.</p>
+</div>
+</body>
+
+</html>
