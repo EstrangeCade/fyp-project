@@ -3,23 +3,23 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Fraud/Phishing Gamil Email Detection</title>
+    <title>Phishing Gamil Email Detection</title>
 </head>
 
 <body>
 <div class="container">
-    <h2 class='container-heading'>Fraud/Phishing Gmail Email Detector - Results</h2>
+    <h2 class='container-heading'>Phishing Gmail Email Detector - Results</h2>
     <div class='description'>
-        <p>A Machine Learning Chrome Extension to Detect Fraud/Phishing Emails. Built with Flask, Deployed using
+        <p>A Machine Learning Chrome Extension to Detect Phishing Emails. Built with Flask, Deployed using
             Heroku.</p>
     </div>
 </div>
 <div class="results">
     {% if prediction==1 %}
-        <h1>Prediction: <span class='danger'>Oh No! We have detetcted this as a potential fraud/phishing message. Please be careful!</span>
+        <h1>Prediction: <span class='danger'>Oh No! We have detetcted this as a potential phishing message. Please be careful!</span>
         </h1>
     {% elif prediction==0 %}
-        <h1>Prediction: <span class='safe'>This is NOT a fraud/phishing message.</span></h1>
+        <h1>Prediction: <span class='safe'>This is NOT a phishing message.</span></h1>
     {% endif %}
 </div>
 <form action="https://heroku-deployment-fyp.herokuapp.com/">
