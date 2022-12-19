@@ -1,7 +1,7 @@
 # Final Year Project
 This is a repository for all the files relating to my FYP project
 
-HOW TO SETUP PROJECT ENVIROMENT
+HOW TO SETUP PROJECT ENVIRONMENT
 -------------------------------
 To setup this project, you must have Anaconda, Google Chrome, Git and Heroku CLI installed on your machine
 
